@@ -19,6 +19,12 @@
 				  1px -1px 0 #000,
 				  -1px -1px 0 #000;
 }
+.center{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
 body{
   margin:0px;
   padding: 0px;
@@ -95,8 +101,8 @@ a{
 
 .section-in img {
   display: block;
-  width: 100%;
-  height: auto;
+  width: 512px;
+  height: 512px;
   transition: transform 250ms linear;
 }
 
@@ -110,7 +116,7 @@ a{
   left: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: visible;
   z-index: 100;
   pointer-events: none;
   display: -webkit-inline-flex;
@@ -128,13 +134,13 @@ a{
   text-align: center;
   -ms-flex-item-align: center;
   align-self: center;
-  mix-blend-mode: difference;
 }
 
 .hover-text h2 {
+  position: absolute;
   font-family: 'Poppins', sans-serif;
   font-weight: 200;
-  font-size: 8vw;
+  font-size: 4vw;
   line-height: 1;
   color: #fff;
   opacity: 0;
@@ -152,9 +158,5 @@ a{
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
-  }
-
-  .hover-text h2 {
-    font-size: 8vw;
   }
 }
