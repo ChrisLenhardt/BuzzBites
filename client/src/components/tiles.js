@@ -5,8 +5,7 @@ import picture3 from "./images/sss.jpg"
 export default function Tiles() {
     return (
       <div>
-        <div class="row">
-          <div class="column">
+          <div class="tiles">
             <img src={picture}>
             </img>
             <img src={picture2}>
@@ -14,6 +13,5 @@ export default function Tiles() {
             <img src={picture3}>
             </img>
           </div>
-        </div>
       </div>
     )}
