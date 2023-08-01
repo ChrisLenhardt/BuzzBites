@@ -38,13 +38,17 @@ a{
 }
 
 img {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
   width: 400px;
   height: 400px;
   --c: #1095c1;
   /* the color */
-  --b: .1em;
+  --b: .3em;
   /* border length*/
-  --d: 20px;
+  --d: 10px;
   /* the cube depth */
 
   --_s: calc(var(--d) + var(--b));
