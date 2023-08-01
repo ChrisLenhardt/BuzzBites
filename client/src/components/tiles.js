@@ -5,10 +5,15 @@ import picture3 from "./images/sss.jpg"
 export default function Tiles() {
     return (
       <div>
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <img src={picture} alt=''></img>
-          <img src={picture2} alt=''></img>
-          <img src={picture3} alt=''></img>
+        <div class="row">
+          <div class="column">
+            <img src={picture}>
+            </img>
+            <img src={picture2}>
+            </img>
+            <img src={picture3}>
+            </img>
+          </div>
         </div>
       </div>
     )}
