@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+.post{
+  display: grid;
+  grid-template-columns: .8fr 1.2fr;
+  gap: 20px;
+  width: 100%;
+  padding: 10px;
+}
+.postInfo{
+  display:inline;
+  padding: 10px;
+  padding-left: 30px;
+}
+.postImage{
+  display:inline;
+  padding:10px;
+}
+.postImageActual{
+  display:inline;
+  width: 110%;
+}
+.postTitle{
+  font-size: 26px;
+  font-weight: 800;
+}
+.postDate{
+  display: inline;
+  font-size:12px;
+}
+.postAuthor{
+  display: inline;
+  padding-right: 10px;
+  font-weight: 550;
+  font-size: 12px;
+}
+.postBody{
+  color:#282c34;
+  font-weight: 200;
+  font-size: 14px;
+}
+.postRow2{
+  padding-bottom:5px;
+  padding-top: 1px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  background-image: url("https://www.creativefabrica.com/wp-content/uploads/2021/08/30/Honeycomb-Pattern-Graphics-16544133-1.jpg");
+  height: 150px;
+  background-size: 120px;
+  margin: 0px;
+  position: relative;
+  top: 0px;
+  padding: 0px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.headerTitle{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0px;
+  padding-top: 40px;
+  font-size: 50px;
   color: white;
+  text-shadow: -2px 2px 3px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
 }
-
-.App-link {
-  color: #61dafb;
+body{
+  margin:0px;
+  padding: 0px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a{
+  text-decoration: none;
+}
+.type1Link{
+  color:white;
 }

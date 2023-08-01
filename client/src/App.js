@@ -1,11 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import Post from './components/post';
+import Header from './components/header';
+
 function App() {
   return (
-    <div>
+    <body>
+      <Header />
       <Post />
-    </div>
+    </body>
   );
 }
 
