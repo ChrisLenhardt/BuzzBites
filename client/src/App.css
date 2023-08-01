@@ -73,3 +73,15 @@ a{
 .type1Link{
   color:white;
 }
+.tiles {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #000000;
+}
+.instagram-media {
+  display: block;
+  margin: 0 auto;
+}

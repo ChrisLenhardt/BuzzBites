@@ -1,10 +1,9 @@
-export default function Tiles(){
-    return(
-        <div class =" row">
-            <div class = "column">
-            <iframe src="https://www.instagram.com/p/CuioNPONWJf/embed" width="400" height="480" frameborder="0" scrolling="no" allowtransparency="true">
-            </iframe>
-            </div>
-        </div>
+export default function Tiles() {
+    return (
+      <div class="tiles">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CvaQqo-uhko/" data-instgrm-version="13">
+        </blockquote>
+      </div>
     );
-}
+  }
+  
