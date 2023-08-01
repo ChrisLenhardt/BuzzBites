@@ -43,7 +43,7 @@
 }
 
 .header{
-  background-image: url("https://www.creativefabrica.com/wp-content/uploads/2021/08/30/Honeycomb-Pattern-Graphics-16544133-1.jpg");
+  background-color: rgba(4, 59, 92, 1);
   height: 150px;
   background-size: 120px;
   margin: 0px;
@@ -53,6 +53,7 @@
 }
 .headerTitle{
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
   margin:0px;
   padding-top: 40px;
   font-size: 50px;
