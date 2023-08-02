@@ -1,3 +1,4 @@
+import picture from "./images/cart.jpg"
 export default function Header(){
     return(
         <div class="header">
