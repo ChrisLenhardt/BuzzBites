@@ -2,6 +2,7 @@ import { InstagramEmbed } from 'react-social-media-embed';
 import picture from "./images/pasta.jpg"
 import picture2 from "./images/chick.jpg"
 import picture3 from "./images/sss.jpg"
+import picture4 from "./images/Soup.JPG"
 export default function Tiles() {
     return (
     <div class="section-fluid-main">
@@ -14,7 +15,7 @@ export default function Tiles() {
           </div>
         </div>
         <div class="hover-text">
-          <h2>prasun's pasta</h2>
+          <h2>Tomato Fettucine</h2>
         </div>
         <div class="section-col">
           <div class="section">
@@ -24,7 +25,7 @@ export default function Tiles() {
           </div>
         </div>
         <div class="hover-text">
-          <h2>prasun's chicken</h2>
+          <h2>Chicken Kadahi</h2>
         </div>
         <div class="section-col">
           <div class="section">
@@ -34,8 +35,18 @@ export default function Tiles() {
           </div>
         </div>
         <div class="hover-text">
-          <h2>prasun's chicken again</h2>
+          <h2>Soy-Scallion griled chicken</h2>
         </div>	
+        <div class="section-col">
+          <div class="section">
+            <div class="section-in">
+              <img src={picture4} alt=""></img>
+            </div>
+          </div>
+        </div>
+        <div class="hover-text">
+          <h2>Roasted Tomato-Pepper Soup</h2>
+        </div>
       </div>
     </div>
  )}

@@ -114,8 +114,8 @@ a{
   position: fixed;
   top: 0;
   left: 0;
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 100%;
   overflow: visible;
   z-index: 100;
   pointer-events: none;
@@ -138,14 +138,17 @@ a{
 
 .hover-text h2 {
   position: absolute;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
   font-weight: 200;
-  font-size: 2vw;
+  font-size: 3vw;
   line-height: 1;
-  color: #fff;
+  color: #ffffff;
   opacity: 0;
-  transform: scale(0.8);
+  transform: scale(0.5);
   transition: transform 250ms linear, opacity 250ms ease;
+  background-color: black;
+  padding: 15px ;
 }
 
 .section-col:hover+.hover-text h2 {
@@ -160,3 +163,4 @@ a{
     max-width: 100%;
   }
 }
+
