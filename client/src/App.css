@@ -176,3 +176,16 @@ a{
 				  1px -1px 0 #000,
 				  -1px -1px 0 #000;
 }
+
+.cart-icon{
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+img{
+  display: flex;
+  margin-left: auto;
+  width: 72px;
+  height: auto;
+}
