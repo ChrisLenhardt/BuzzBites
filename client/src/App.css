@@ -13,7 +13,7 @@
   margin:0px;
   padding-top: 40px;
   font-size: 50px;
-  color: white;
+  color: gold;
   text-shadow: -2px 2px 3px #000,
 				  1px 1px 2px #000,
 				  1px -1px 0 #000,
@@ -33,7 +33,7 @@ a{
   text-decoration: none;
 }
 .type1Link{
-  color:white;
+  color:goldenrod;
 }
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
 
@@ -164,3 +164,15 @@ a{
   }
 }
 
+.subTitle{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin:0px;
+  padding-top: 100px;
+  font-size: 25px;
+  color: goldenrod;
+  text-shadow: -2px 2px 3px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}

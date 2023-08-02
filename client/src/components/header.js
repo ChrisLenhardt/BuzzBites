@@ -4,6 +4,9 @@ export default function Header(){
             <h1 class='headerTitle'>
                 <a href="#" class='type1Link'>BuzzBites</a>
             </h1>
+            <h2 class="subTitle">
+                On Today's Menu
+            </h2>
         </div>
     );
 }
