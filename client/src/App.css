@@ -93,6 +93,7 @@ a.darken:hover img {
 }
 
 a.darken span {
+  text-justify: auto;
   visibility: hidden;
   font-size: 16px;
   position: absolute;
