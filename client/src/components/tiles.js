@@ -10,10 +10,18 @@ export default function Tiles() {
                 On Today's Menu
             </h2>
       <section id="photos">
-        <a class="darken"><img src={picture}></img><span>Tomato Fettucine</span></a>
-        <a class="darken"><img src={picture2}></img><span>Chicken Kadai</span></a>
-        <a class="darken"><img src={picture3}></img><span>Sesame Chicken</span></a>
-        <a class="darken"><img src={picture4}></img><span>Tomato Soup</span></a>
+        <div class="pcontainer">
+          <a class="darken"><img src={picture}></img><span>Tomato Fettucine</span></a>
+        </div>
+        <div class="pcontainer">
+          <a class="darken"><img src={picture2}></img><span>Chicken Kadai</span></a>
+        </div>
+        <div class="pcontainer">
+          <a class="darken"><img src={picture3}></img><span>Sesame Chicken</span></a>
+        </div>
+        <div class="pcontainer">
+          <a class="darken"><img src={picture4}></img><span>Tomato Soup</span></a>
+        </div>
       </section>
     </div>
  )}

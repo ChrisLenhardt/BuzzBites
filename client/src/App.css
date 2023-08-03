@@ -7,6 +7,7 @@
   top: 0px;
   padding: 0px;
 }
+
 .headerTitle{
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -19,41 +20,53 @@
 				  1px -1px 0 #000,
 				  -1px -1px 0 #000;
 }
+
 .center{
   position: absolute;
   top: 50%;
   width: 100%;
   text-align: center;
 }
+
 body{
   margin:0px;
   padding: 0px;
 }
+
 a{
   text-decoration: none;
 }
+
 .type1Link{
   color:goldenrod;
 }
 
 #photos {
-  /* Prevent vertical gaps */
-  line-height: 0;
-  margin-left: 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* Two columns in the grid */
+  gap: 10px;
+  /* Adjust this value to set the spacing between pictures */
+  justify-content: center;
+  /* Center the grid horizontally */
+  max-width: 650px;
+  /* Set a maximum width for the container */
+  margin: 0 auto;
+  /* Center the container horizontally */
+  background-color: transparent;
+}
 
-  -webkit-column-count: 2;
-  -webkit-column-gap: 5px;
-  -moz-column-count: 2;
-  -moz-column-gap: 5px;
-  column-count: 2;
-  column-gap: 5px;
-
+.pcontainer{
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 #photos img {
-  /* Just in case there are inline attributes */
-  width: 512px !important;
-  height: 512px !important;
+  width: 300px;
+  height: 300px;
+  /* Adjust this value to set the height of each image */
+  object-fit: cover;
+  /* Maintain aspect ratio and fill the container */
 }
 
 a.darken {
@@ -103,7 +116,8 @@ a.darken:hover span {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin:0px;
-  padding-top: 100px;
+  padding-top: 75px;
+  padding-bottom: 25px;
   font-size: 25px;
   color: goldenrod;
   text-shadow: -2px 2px 3px #000,
