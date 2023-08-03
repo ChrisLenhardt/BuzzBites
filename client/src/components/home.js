@@ -1,11 +1,14 @@
 import Header from "./header";
-import Tiles from "./tiles";
+import Italian from "./italian";
+import Indian from "./indian";
+import Middle from "./middle";
+import Western from "./western";
 
 export default function Home () {
     return (
         <div id="root">
         <Header></Header>
-        <Tiles />
+        <Italian />
         </div>
     );
 }
