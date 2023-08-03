@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Righteous&family=Ysabeau+Infant:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Ysabeau+Infant:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@200&display=swap');
 .header{
   background-color: rgba(4, 59, 92, 1);
   height: 150px;
@@ -9,10 +12,9 @@
 }
 
 .headerTitle{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Bungee Shade', cursive;
   text-align: center;
   margin:0px;
-  padding-top: 40px;
   font-size: 50px;
   color: gold;
   text-shadow: -2px 2px 3px #000,
@@ -96,6 +98,7 @@ a.darken span {
   text-justify: auto;
   visibility: hidden;
   font-size: 16px;
+  font-family: 'Ysabeau Infant', sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -118,7 +121,7 @@ a.darken:hover span {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin:0px;
-  padding-top: 75px;
+  padding-top: 55px;
   padding-bottom: 25px;
   font-size: 25px;
   color: goldenrod;
