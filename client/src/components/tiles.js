@@ -9,49 +9,11 @@ export default function Tiles() {
       <h2 class="subTitle">
                 On Today's Menu
             </h2>
-      <div class="section-fluid-main">
-        <div class="section-row">
-          <div class="section-col">
-            <div class="section">
-              <div class="section-in">
-                <img src={picture} alt=""></img>
-              </div>
-            </div>
-          </div>
-          <div class="hover-text">
-            <h2>Tomato Fettucine</h2>
-          </div>
-          <div class="section-col">
-            <div class="section">
-              <div class="section-in">
-                <img src={picture2} alt=""></img>
-              </div>
-            </div>
-          </div>
-          <div class="hover-text">
-            <h2>Chicken Kadahi</h2>
-          </div>
-          <div class="section-col">
-            <div class="section">
-              <div class="section-in">
-                <img src={picture3} alt=""></img>
-              </div>
-            </div>
-          </div>
-          <div class="hover-text">
-            <h2>Soy-Scallion griled chicken</h2>
-          </div>	
-          <div class="section-col">
-            <div class="section">
-              <div class="section-in">
-                <img src={picture4} alt=""></img>
-              </div>
-            </div>
-          </div>
-          <div class="hover-text">
-            <h2>Roasted Tomato-Pepper Soup</h2>
-          </div>
-        </div>
-      </div>
+      <section id="photos">
+        <a class="darken"><img src={picture}></img><span>Tomato Fettucine</span></a>
+        <a class="darken"><img src={picture2}></img><span>Chicken Kadai</span></a>
+        <a class="darken"><img src={picture3}></img><span>Sesame Chicken</span></a>
+        <a class="darken"><img src={picture4}></img><span>Tomato Soup</span></a>
+      </section>
     </div>
  )}
