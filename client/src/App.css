@@ -191,3 +191,9 @@ img{
   width: 72px;
   height: auto;
 }
+
+#cartButton{
+  position: absolute;
+  top:40px;
+  right:20px;
+}

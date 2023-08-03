@@ -1,12 +1,13 @@
+import Cart from "./cart";
+
 export default function Header(){
     return(
             <div class="header">
             <h1 class="headerTitle">
-                <a href="#" class="type1Link">BuzzBites</a>
+                <a href="/" class="type1Link">BuzzBites</a>
             </h1>
-            <h2 class="subTitle">
-                On Today's Menu
-            </h2>
+            
+            <Cart />
         </div>
     );
 }
