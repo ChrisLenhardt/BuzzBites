@@ -1,4 +1,4 @@
-import picture from "./images/pasta.jpg"
+import picture from "./images/HerbChicken.jpg"
 import picture2 from "./images/chick.jpg"
 import picture3 from "./images/sss.jpg"
 import picture4 from "./images/Soup.JPG"
@@ -10,7 +10,7 @@ export default function Western() {
             </h2>
       <section id="photos">
         <div class="pcontainer">
-          <a class="darken"><img src={picture}></img><span>Tomato Fettucine</span></a>
+          <a class="darken"><img src={picture}></img><span>Herb Chicken</span></a>
         </div>
         <div class="pcontainer">
           <a class="darken"><img src={picture2}></img><span>Chicken Kadai</span></a>
