@@ -8,6 +8,10 @@ export default function Header(){
             </h1>
             
             <Cart />
+
+            <h2 class="subTitle">
+                This Week's Menu
+            </h2>  
         </div>
     );
 }

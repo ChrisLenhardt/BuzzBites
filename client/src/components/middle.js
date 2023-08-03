@@ -4,9 +4,6 @@ import picture3 from "./images/sss.jpg"
 export default function Middle() {
     return (
     <div>
-      <h2 class="subTitle">
-                This Week's Menu
-            </h2>
       <section id="photos">
         <div class="pcontainer">
           <a class="darken"><img src={picture}></img><span>Chicken Gyro</span></a>
