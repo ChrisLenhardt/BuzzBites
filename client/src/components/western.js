@@ -1,13 +1,12 @@
-import { InstagramEmbed } from 'react-social-media-embed';
 import picture from "./images/pasta.jpg"
 import picture2 from "./images/chick.jpg"
 import picture3 from "./images/sss.jpg"
 import picture4 from "./images/Soup.JPG"
-export default function Tiles() {
+export default function Western() {
     return (
     <div>
       <h2 class="subTitle">
-                On Today's Menu
+                This Week's Menu
             </h2>
       <section id="photos">
         <div class="pcontainer">

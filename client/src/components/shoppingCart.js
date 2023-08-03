@@ -1,11 +1,11 @@
 import Header from "./header";
-import Tiles from "./tiles";
+import Italian from "./italian";
 
 export default function ShoppingCart () {
     return(
         <div>
         <Header />
-        <h1>Shopping Cart</h1>
+        <h1>Your Order</h1>
         <ul id="cart-list">
         </ul>
         <div id="subtotal">
