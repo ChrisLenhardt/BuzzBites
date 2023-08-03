@@ -2,7 +2,6 @@ import { InstagramEmbed } from 'react-social-media-embed';
 import picture from "./images/MushroomAlfredo.jpg"
 import picture2 from "./images/RoastedTomatPasta.jpg"
 import picture3 from "./images/sss.jpg"
-import picture4 from "./images/Soup.JPG"
 export default function Italian() {
     return (
     <div>
@@ -18,9 +17,6 @@ export default function Italian() {
         </div>
         <div class="pcontainer">
           <a class="darken"><img src={picture3}></img><span>Sesame Chicken</span></a>
-        </div>
-        <div class="pcontainer">
-          <a class="darken"><img src={picture4}></img><span>Tomato Soup</span></a>
         </div>
       </section>
     </div>

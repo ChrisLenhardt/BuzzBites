@@ -1,7 +1,6 @@
 import picture from "./images/ChickenGyro.jpg"
 import picture2 from "./images/chick.jpg"
 import picture3 from "./images/sss.jpg"
-import picture4 from "./images/Soup.JPG"
 export default function Middle() {
     return (
     <div>
@@ -17,9 +16,6 @@ export default function Middle() {
         </div>
         <div class="pcontainer">
           <a class="darken"><img src={picture3}></img><span>Sesame Chicken</span></a>
-        </div>
-        <div class="pcontainer">
-          <a class="darken"><img src={picture4}></img><span>Tomato Soup</span></a>
         </div>
       </section>
     </div>
