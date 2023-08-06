@@ -1,19 +1,34 @@
-import picture from "./images/ButterChicken.jpg"
-import picture2 from "./images/chick.jpg"
-import picture3 from "./images/sss.jpg"
-export default function Indian() {
-    return (
+import React from 'react';
+import { Link } from 'react-router-dom';
+import picture from "./images/ButterChicken.jpg";
+import picture2 from "./images/chick.jpg";
+import picture3 from "./images/sss.jpg";
+
+const Indian = ({ dishes }) => {
+  return (
     <div>
       <section id="photos">
-        <div class="pcontainer">
-          <a class="darken"><img src={picture}></img><span>Butter Chicken</span></a>
+        <div className="pcontainer">
+          <Link to="/dish/butter-chicken" className="darken">
+            <img src={picture} alt="Butter Chicken" />
+            <span>Butter Chicken</span>
+          </Link>
         </div>
-        <div class="pcontainer">
-          <a class="darken"><img src={picture2}></img><span>Chicken Kadai</span></a>
+        <div className="pcontainer">
+          <Link to="/dish/chicken-kadai" className="darken">
+            <img src={picture2} alt="Chicken Kadai" />
+            <span>Chicken Kadai</span>
+          </Link>
         </div>
-        <div class="pcontainer">
-          <a class="darken"><img src={picture3}></img><span>Sesame Chicken</span></a>
+        <div className="pcontainer">
+          <Link to="/dish/sesame-chicken" className="darken">
+            <img src={picture3} alt="Sesame Chicken" />
+            <span>Sesame Chicken</span>
+          </Link>
         </div>
       </section>
     </div>
- )}
+  );
+};
+
+export default Indian;
