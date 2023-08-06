@@ -24,7 +24,27 @@ app.listen(port, () =>
 );
 
 
+app.get('/apiTest', async (req,res) =>{
+  
+  try{
+    const db = client.db('sample_mflix')
+    const collection = db.collection('users')
 
+    const results = await collection.find();
+    res.json(results.next());
+    console.log(results.next());
+  }
+  catch(error){
+    console.log("uh oh");
+  }
+
+})
+
+app.get('/helloWorld', async (req,res) =>{
+  await client.connect();
+  res.json("Hello World");
+  
+})
 
 
 async function run(){
@@ -36,7 +56,13 @@ async function run(){
 
         const cursor = collection.find({name: "Jon Snow"});
 
-        await cursor.forEach(console.log); 
+        cursor.toArray((err,results)=>{
+          if(err){
+            console.log(err);
+          }
+
+          console.log(results);
+        })
             //for each is deprecated, i will replace it later
     }
     finally{
@@ -44,4 +70,4 @@ async function run(){
     }
 }
 
-run();
+//run();
