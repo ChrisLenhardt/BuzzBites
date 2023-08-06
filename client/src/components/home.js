@@ -8,6 +8,9 @@ export default function Home () {
     return (
         <div id="root">
         <Header></Header>
+        <h2 class="subTitle">
+            This Week's Menu
+        </h2> 
         <Italian />
         </div>
     );
