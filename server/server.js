@@ -4,6 +4,9 @@ const mongoose = require('mongoose');
 const Decimal128 = require('mongoose/lib/schema/decimal128');
 const app = express();
 const port = 8000;
+const path = require('path');
+
+app.use(express.static(path.join(__dirname, 'src', 'images')));
 
 const uri = 'mongodb+srv://chrisL:Cl02082005@cluster0.nzksy4h.mongodb.net/buzzbitess';
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
