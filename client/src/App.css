@@ -1,10 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Righteous&family=Ysabeau+Infant:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Ysabeau+Infant:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Indie+Flower&family=Just+Another+Hand&family=Just+Me+Again+Down+Here&family=Righteous&family=Ysabeau+Infant:wght@200&display=swap');
+
+.temp{
+  background: linear-gradient(91deg, #741010 1.33%, #2F0202 83.38%);
+  flex-shrink: 0;
+  
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* Set minimum height to cover the viewport */
+}
+
 .header{
-  background-color: rgba(4, 59, 92, 1);
-  height: 150px;
-  background-size: 120px;
   margin: 0px;
   position: relative;
   top: 0px;
@@ -12,15 +21,149 @@
 }
 
 .headerTitle{
-  font-family: 'Bungee Shade', cursive;
-  text-align: center;
-  margin:0px;
-  font-size: 50px;
-  color: gold;
-  text-shadow: -2px 2px 3px #000,
-				  1px 1px 2px #000,
-				  1px -1px 0 #000,
-				  -1px -1px 0 #000;
+  display: flex;
+  width: 205px;
+  height: 136px;
+  padding-left: 50px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #E48804;
+  font-family: 'Just Me Again Down Here', cursive;
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.headerTitle2{
+    color: #FFF;
+    font-family: Indie Flower;
+    font-size: 87px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    width: 321px;
+    height: 101px;
+    padding-left: 30px;
+    flex-shrink: 0;
+}
+
+.navBar{
+  position: absolute;
+  top: 0;
+  right: 250px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.navBar .navTitles{
+  color: #FFF;
+  font-family: Indie Flower;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#cartButton {
+  position: absolute;
+  top: 0;
+  right: 200px;
+  padding-top: 25px;
+  width: 25px;
+  height: 25px;
+  transform: scale(0.8);
+  flex-shrink: 0;
+}
+
+.yellow{
+  position: relative;
+}
+
+.text-boxes {
+  display: flex;
+  align-items: center;
+  /* Vertically center align the text boxes and images */
+  margin-right: 20px;
+  /* Add margin to adjust spacing */
+}
+
+.text-box {
+  padding: 20px;
+  /* Add padding to the text box container */
+  margin-right: 0;
+  margin-left: 200px;
+  /* Adjust margin to move text boxes closer */
+}
+
+.orange-text {
+  color: #E48804;
+  /* Orange color */
+  font-size: 90px;
+  font-family: 'Just Another Hand', cursive;
+  margin: -35px;
+}
+
+.white-text {
+  color: #FFF;
+  /* White color */
+  margin: -35px;
+}
+
+.bigger-text {
+  font-size: 100px;
+  font-family: 'Just Another Hand', cursive;
+  /* Larger font size */
+}
+
+.smaller-text {
+  font-size: 40px;
+  font-family: 'Ysabeau Infant', sans-serif;
+  /* Smaller font size */
+}
+
+.orange-button {
+  background-color: #E48804;
+  /* Orange color */
+  color: #FFF;
+  /* White color for text */
+  margin: 50px;
+  padding: 10px;
+  /* Adjust padding for button size */
+  border: none;
+  border-radius: 5px;
+  /* Rounded corners */
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.orange-button:hover {
+  background-color: #D47602;
+  /* Darker orange color on hover */
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: -70px;
+  left: 360px;
+  transform: scale(1.7);
+}
+
+.overlay-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  transform: scale(0.8);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .center{
@@ -31,6 +174,7 @@
 }
 
 body{
+  background: linear-gradient(91deg, #741010 1.33%, #2F0202 83.38%);
   margin:0px;
   padding: 0px;
 }
@@ -129,27 +273,6 @@ a.darken:hover span {
 				  1px 1px 2px #000,
 				  1px -1px 0 #000,
 				  -1px -1px 0 #000;
-}
-
-.cart-icon{
-  width: 24px;
-  height: 24px;
-  margin-right: 5px;
-  
-  
-}
-
-img{
-  display: flex;
-  margin-left: auto;
-  width: 72px;
-  height: auto;
-}
-
-#cartButton{
-  position: absolute;
-  top:40px;
-  right:20px;
 }
 
 h1{
