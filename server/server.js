@@ -7,7 +7,11 @@ const port = 8000;
 const path = require('path');
 
 app.use(express.static(path.join(__dirname, 'src', 'images')));
+const cors = require('cors');
 
+app.use(cors({
+    origin: "http://localhost:3000"
+}));
 const uri = 'mongodb+srv://chrisL:Cl02082005@cluster0.nzksy4h.mongodb.net/buzzbitess';
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
@@ -33,14 +37,15 @@ const menuSchema = new mongoose.Schema({
 const Menu = mongoose.model('Menu', menuSchema);
 
 // Route to get menu data from MongoDB
-app.get('/api/menu', async (req, res) => {
+app.get('/menuitem/:parameter', async (req, res) => {
   console.log('Request received for /api/menu'); // Debug statement
 
   try {
     // Fetch menu data from MongoDB
-    const menuItems = await Menu.find().lean();
+    const { parameter } = req.params;
+    const menuItems = await Menu.find({_id: parameter}).lean();
 
-    console.log('Menu Items:', menuItems); // Debug statement
+    console.log(`Menu Items that fit id ${parameter}`, menuItems); // Debug statement
 
     res.json(menuItems);
   } catch (error) {
