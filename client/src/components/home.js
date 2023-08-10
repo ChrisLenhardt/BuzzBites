@@ -7,8 +7,12 @@ import Middle from "./middle";
 import Western from "./western";
 import picture from "./images/yellowting.png";
 import picture2 from "./images/homepasta.png";
+import picture3 from "./images/ButterChicken.jpg";
+import picture4 from "./images/Bowl.jpg";
+import picture5 from "./images/paneer.jpg";
 
 export default function Home() {
+  
   return (
     <div id="root">
       <div className="temp">
@@ -31,8 +35,42 @@ export default function Home() {
         </div>
       </div>
       <div class="new-section">
-        <h2>New Section Title</h2>
-        <p>This is the content of the new section.</p>
+        <div class="newtitle">
+        <h2>WHAT'S ON THIS WEEK'S MENU</h2>
+        </div>
+        <div class="menucards">
+              <div class="card-content">
+                <h3 class="dish-name">Dish Name</h3>
+                <img src={picture3} alt="Picture 2" className="cardimg" />
+                <p class="dish-price">$10.99</p>
+                <button className="order-button">Order</button>
+            </div>
+            <div class="card-description">
+                <p class="description-text">Description of the dish.</p>
+            </div>
+        </div>
+        <div class="menucards">
+              <div class="card-content">
+                <h3 class="dish-name">Dish Name</h3>
+                <img src={picture4} alt="Picture 2" className="cardimg"/>
+                <p class="dish-price">$10.99</p>
+                <button className="order-button">Order</button>
+            </div>
+            <div class="card-description">
+                <p class="description-text">Description of the dish.</p>
+            </div>
+        </div>
+        <div class="menucards">
+              <div class="card-content">
+                <h3 class="dish-name">Dish Name</h3>
+                <img src={picture5} alt="Picture 2" className="cardimg"/>
+                <p class="dish-price">$10.99</p>
+                <button className="order-button">Order</button>
+            </div>
+            <div class="card-description">
+                <p class="description-text">Description of the dish.</p>
+            </div>
+        </div>
       </div>
     </div>
   );
