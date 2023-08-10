@@ -8,7 +8,7 @@ export default function Header() {
         <h1 class="headerTitle2">BITES</h1>
         <div class="navBar">
           <h1 class="navTitles">HOME</h1>
-          <a href = "MENU.js" type = "button"> MENU </a>
+          <a href = "Menu" type = "button"> MENU </a>
         </div>
 
         <Cart />
