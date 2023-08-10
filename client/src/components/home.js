@@ -30,6 +30,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div class="new-section">
+        <h2>New Section Title</h2>
+        <p>This is the content of the new section.</p>
+      </div>
     </div>
   );
 }

@@ -124,6 +124,7 @@
 .smaller-text {
   font-size: 40px;
   font-family: 'Ysabeau Infant', sans-serif;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   /* Smaller font size */
 }
 
@@ -164,6 +165,12 @@
   z-index: 1;
   transform: scale(0.8);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.new-section {
+  background-color: #FFF;
+  margin-top: 130px;
+  padding: 40px;
 }
 
 .center{
