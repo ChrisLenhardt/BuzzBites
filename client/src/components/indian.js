@@ -23,7 +23,7 @@ const Indian = ({ dishes }) => {
         <div className="pcontainer">
           <Link to="/dish/sesame-chicken" className="darken">
             <img src={picture3} alt="Sesame Chicken" />
-            <span>Sesame Chicken</span>
+            <span>Sesame Chicken</span> 
           </Link>
         </div>
       </section>

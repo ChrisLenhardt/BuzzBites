@@ -305,3 +305,113 @@ ul#cart-list li{
 #subtotal p {
   margin: 5px;
 }
+
+.Indian1 {
+  position: absolute;
+  top: 600px;
+  left: 100px;
+  width: 550px;
+  height: 500px;
+}
+
+.Indian2 {
+  position: absolute;
+  top: 600px;
+  right: 100px;
+  width: 550px;
+  height: 500px;
+}
+
+.Indian3 {
+  position: absolute;
+  top: 600px;
+  left: 600px;
+  width: 650px;
+  height: 500px;
+}
+
+.Middle {
+  float: left;
+  width: 300px
+}
+
+.menuTitle {
+  font-family: Indie Flower;
+  font-size: 87px;
+  font-style: normal;
+  color: #FFF;
+  text-align: center;
+}
+
+.IndiaTitle {
+  font-family: Indie Flower;
+  font-size: 60px;
+  font-style: normal;
+  color: #FFF;
+  text-align: center;
+}
+.MiddleTitle {
+  position: absolute;
+  top: 1100px;
+  right: 760px;
+  font-family: Indie Flower;
+  font-size: 60px;
+  font-style: normal;
+  color: #FFF;
+}
+
+.ItalianTitle {
+  position: absolute;
+  top: 1850px;
+  right: 760px;
+  font-family: Indie Flower;
+  font-size: 60px;
+  font-style: normal;
+  color: #FFF;
+}
+
+.Middle1 {
+  position: absolute;
+  top: 1250px;
+  left: 100px;
+  width: 550px;
+  height: 600px;
+}
+
+.Middle2 {
+  position: absolute;
+  top: 1250px;
+  right: 100px;
+  width: 550px;
+  height: 600px;
+}
+
+.Middle3 {
+  position: absolute;
+  top: 1250px;
+  right: 650px;
+  width: 550px;
+  height: 600px;
+}
+
+.Italian1 {
+  position: absolute;
+  top: 2000px;
+  right: 100px;
+  width: 550px;
+  height: 550px;
+}
+.Italian3 {
+  position: absolute;
+  top: 2000px;
+  left: 550px;
+  width: 675px;
+  height: 550px;
+}
+.Italian2 {
+  position: absolute;
+  top: 2000px;
+  left: 100px;
+  width: 675px;
+  height: 550px;
+}
