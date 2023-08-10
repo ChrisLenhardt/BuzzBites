@@ -3,12 +3,12 @@ import Cart from "./cart";
 export default function Header() {
   return (
     <div>
-      <div class="header">
-        <h1 class="headerTitle">buzz</h1>
-        <h1 class="headerTitle2">BITES</h1>
-        <div class="navBar">
-          <h1 class="navTitles">HOME</h1>
-          <a href = "Menu" type = "button"> MENU </a>
+      <div className="header">
+        <h1 className="headerTitle">buzz</h1>
+        <h1 className="headerTitle2">BITES</h1>
+        <div className="navBar">
+          <a href="/" className="navTitles">HOME</a>
+          <a href="/Menu" className="navTitles">MENU</a>
         </div>
 
         <Cart />
