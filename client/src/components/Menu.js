@@ -32,7 +32,12 @@ export default function Menu() {
         </div>
         <div>
         <img class = "Indian1" src={picture} alt="Butter Chicken" />
+          <div class = "overlay overlay--blur" >
+            <div class = "imgTitle"> Butter Chicken</div>
+            <p class = "description"> Tender pieces of chicken cooked in rich tomato gravy</p>
+          </div>
         </div>
+      
       </div>
       
 

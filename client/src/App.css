@@ -307,12 +307,57 @@ ul#cart-list li{
   height: 500px;
 }
 
+.Indian1 { 
+  display: block;
+}
+.overlay {
+  font-family: Indie Flower;
+  color: white;
+  position: absolute;
+  top: 600px;
+  left: 100px;
+  width: 550px;
+  height: 500px;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.overlay--blur { 
+  backdrop-filter: blur(10px);
+}
+
+.overlay > * {
+  transition: transform 0.5s;
+}
+
+.overlay:hover {
+  opacity: 1;
+
+ 
+}
+.imgTitle { 
+  font-size: 2em;
+  font-weight: bold;
+}
+.description { 
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+
 .Indian2 {
   position: absolute;
   top: 600px;
   right: 100px;
   width: 550px;
   height: 500px;
+}
+.Indian2 > img {
+  aspect-ratio: 1/1;
 }
 
 .Indian3 {
@@ -321,6 +366,9 @@ ul#cart-list li{
   left: 600px;
   width: 650px;
   height: 500px;
+}
+.Indian3 > img {
+  aspect-ratio: 1/1;
 }
 
 .Middle {
@@ -370,6 +418,9 @@ ul#cart-list li{
   width: 550px;
   height: 600px;
 }
+.Middle1 > img {
+  aspect-ratio: 1/1;
+}
 
 .Middle2 {
   position: absolute;
@@ -378,6 +429,9 @@ ul#cart-list li{
   width: 550px;
   height: 600px;
 }
+.Middle2 > img {
+  aspect-ratio: 1/1;
+}
 
 .Middle3 {
   position: absolute;
@@ -385,6 +439,9 @@ ul#cart-list li{
   right: 650px;
   width: 550px;
   height: 600px;
+}
+.Middle3 > img {
+  aspect-ratio: 1/1;
 }
 
 .Italian1 {
