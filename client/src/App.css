@@ -81,10 +81,6 @@
   flex-shrink: 0;
 }
 
-.yellow{
-  position: relative;
-}
-
 .text-boxes {
   display: flex;
   align-items: center;
@@ -124,6 +120,7 @@
 .smaller-text {
   font-size: 40px;
   font-family: 'Ysabeau Infant', sans-serif;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   /* Smaller font size */
 }
 
@@ -148,6 +145,10 @@
   /* Darker orange color on hover */
 }
 
+.yellow {
+  position: relative;
+}
+
 .image-container {
   position: relative;
   display: inline-block;
@@ -164,6 +165,12 @@
   z-index: 1;
   transform: scale(0.8);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.new-section {
+  background-color: #FFF;
+  margin-top: 130px;
+  padding: 40px;
 }
 
 .center{
@@ -464,4 +471,82 @@ ul#cart-list li{
   left: 100px;
   width: 675px;
   height: 550px;
+}
+
+.newtitle {
+  color: #E48804;
+  font-family: Just Another Hand;
+  font-size: 73px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menucards {
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+}
+
+.card-content {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.card-content:hover {
+  transform: scale(1.05);
+  z-index: 2;
+}
+
+.card-description {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.menu-card:hover .card-description {
+  opacity: 1;
+}
+
+.cardimg {
+  width: 100%;
+    /* Set the width to occupy the entire card content */
+    max-height: 150px;
+    /* Set the maximum height for consistent size */
+    object-fit: cover;
+}
+
+.order-button {
+  background-color: #e48804;
+  /* Orange color */
+  color: #fff;
+  /* White text color */
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  /* Adjust padding for button size */
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 10px;
+  /* Add some top margin */
+}
+
+.order-button:hover {
+  background-color: #d47602;
+  /* Darker orange color on hover */
 }
